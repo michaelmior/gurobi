@@ -1,6 +1,8 @@
 require "mkmf"
 
 # set Gurobi header & lib
+raise 'Must specify GUROBI_HOME' if ENV['GUROBI_HOME'].nil?
+
 dir_config 'grb',
     ENV['GUROBI_HOME'] + '/include',
     ENV['GUROBI_HOME'] + '/lib'
