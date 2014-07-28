@@ -4,8 +4,8 @@ This is a Gurobi Ruby binding based on C++ Gurobi API.
 
 == Prerequisites
 
-* Gurobi 5.5 installed and
-  environment variable GUROBI_HOME is set (e.g. /opt/gurobi550/linux64).
+* Gurobi 5.6 installed and
+  environment variable GUROBI_HOME is set (e.g. /opt/gurobi563/linux64).
 
 == Installation
 
